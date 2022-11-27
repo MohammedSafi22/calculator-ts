@@ -4,7 +4,7 @@ import Mark from "../models/Mark";
 export const AppContext = createContext<{
   marks: Mark[];
   setMarksFunc: (mark: Mark) => void;
-  deleteMark: (id: Number) => void;
+  deleteMark: (id: Number) => void; 
 }>({
   marks: [],
   setMarksFunc: () => {},
